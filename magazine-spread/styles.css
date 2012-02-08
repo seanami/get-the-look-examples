@@ -12,6 +12,7 @@ Colors:
 html {
   background: #87776f url(images/background.jpg) no-repeat top center;
   background-size: 100% auto;
+  font-size: 62.5%;
   min-height: 100%;
   position: relative;
 }
@@ -25,7 +26,7 @@ html {
 /* Main heading */
 
 .heading h1 {
-  font: 400 normal 100px/0.8 "abril-fatface", serif;
+  font: 400 normal 10em/0.8 "abril-fatface", serif;
   margin: 0.5em 0 0.25em 5%;
   text-shadow: 1px 1px 0 #003143, 2px 2px 1px #003143;
   text-transform: uppercase;
@@ -34,13 +35,13 @@ html {
 
 .heading h1 .word1 {
   display: block;
-  font-size: 128px;
+  font-size: 1.28em;
 }
 
-.heading h1 .word2 {
+.heading h1 .ampersand {
   color: #ff4f00;
-  font-size: 75px;
-  margin-left: 0.9em;
+  font-size: 0.9em;
+  margin-left: 0.6em;
   text-shadow: 1px 1px 0 #670000, 2px 2px 1px #670000;
   vertical-align: top;
 }
@@ -49,7 +50,7 @@ html {
 
 .heading h2 {
   border-top: 2px solid #fff;
-  font: 600 italic 36px/1.2 "abril-display", serif;
+  font: 600 italic 3.6em/1.2 "abril-display", serif;
   margin: 0 40% 0 5%;
   padding: 0.4em 0;
   text-align: center;
@@ -61,7 +62,7 @@ html {
 .text,
 .credits {
   color: #fff;
-  font: 300 normal 18px/1.35 "freight-sans-pro", sans-serif;
+  font: 300 normal 1.8em/1.35 "freight-sans-pro", sans-serif;
 }
 
 .text {
@@ -90,7 +91,7 @@ html {
   border-radius: 3px 3px 0 0;
   bottom: 0;
   color: #666;
-  font-size: 14px;
+  font-size: 1.4em;
   line-height: 1.2;
   margin: 0;
   max-width: 30%;
