@@ -1,9 +1,10 @@
 /*
 Colors:
-  Brown       #87776f
-  Orange      #f92600
-  Blue        #00a3b0
-  Dark blue   #003143
+  Brown         #87776f
+  Orange        #ff4f00
+  Dark orange   #670000
+  Blue          #00a3b0
+  Dark blue     #003143
 */
 
 /* Overall Page */
@@ -37,9 +38,11 @@ html {
 }
 
 .heading h1 .word2 {
-  font-size: 60px;
-  position: relative;
-  bottom: 26px;
+  color: #ff4f00;
+  font-size: 75px;
+  margin-left: 0.9em;
+  text-shadow: 1px 1px 0 #670000, 2px 2px 1px #670000;
+  vertical-align: top;
 }
 
 /* Sub heading */
@@ -95,7 +98,7 @@ html {
 }
 
 .credits dt {
-  color: #f92600;
+  color: #ff4f00;
   font-style: normal;
   float: left;
 }
