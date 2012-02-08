@@ -1,4 +1,30 @@
+/*
+Colors:
+Orange  #f92600
+Blue    #00a3b0
+*/
+
 html {
-  background: url(images/background.jpg) no-repeat top center;
+  background: #00a3b0 url(images/background.jpg) no-repeat top center;
   background-size: 100% auto;
+}
+
+.heading {
+  color: #fff;
+}
+
+.heading h1 {
+  font: 400 normal 100px/1 "abril-fatface", serif;
+  text-shadow: 1px 1px 0 #00a3b0, 2px 2px 1px #00a3b0;
+}
+
+.heading h2 {
+  font: 600 italic 50px/1.06 "abril-display", serif;
+  text-shadow: 1px 1px 0 #00a3b0;
+}
+
+.text,
+.credits {
+  color: #fff;
+  font: 300 normal 18px/1.4 "freight-sans-pro", sans-serif;
 }
