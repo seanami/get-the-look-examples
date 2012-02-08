@@ -11,6 +11,7 @@ Colors:
 html {
   background: #87776f url(images/background.jpg) no-repeat top center;
   background-size: 100% auto;
+  min-height: 100%;
   position: relative;
 }
 
