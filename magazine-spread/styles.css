@@ -77,6 +77,9 @@ html {
 
 .text p {
   margin: 0;
+}
+
+.text p + p {
   text-indent: 1.5em;
 }
 
