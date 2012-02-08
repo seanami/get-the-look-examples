@@ -1,6 +1,5 @@
 /*
 Colors:
-  Brown         #87776f
   Orange        #ff4f00
   Dark orange   #670000
   Blue          #00a3b0
@@ -10,8 +9,8 @@ Colors:
 /* Overall Page */
 
 html {
-  background: #87776f url(images/background.jpg) no-repeat top center;
-  background-size: 100% auto;
+  background: #00a3b0 url(images/background.jpg) no-repeat top center;
+  background-size: cover;
   font-size: 62.5%;
   min-height: 100%;
   position: relative;
