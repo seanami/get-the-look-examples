@@ -1,27 +1,56 @@
 /*
 Colors:
-Orange  #f92600
-Blue    #00a3b0
+  Orange      #f92600
+  Blue        #00a3b0
+  Dark blue   #003143
 */
+
+/* Overall Page */
 
 html {
   background: #00a3b0 url(images/background.jpg) no-repeat top center;
   background-size: 100% auto;
 }
 
+/* Headings */
+
 .heading {
   color: #fff;
 }
 
+/* Main heading */
+
 .heading h1 {
-  font: 400 normal 100px/1 "abril-fatface", serif;
-  text-shadow: 1px 1px 0 #00a3b0, 2px 2px 1px #00a3b0;
+  font: 400 normal 100px/0.8 "abril-fatface", serif;
+  margin: 0.5em 0 0.25em 5%;
+  text-shadow: 1px 1px 0 #003143, 2px 2px 1px #003143;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
-.heading h2 {
-  font: 600 italic 50px/1.06 "abril-display", serif;
-  text-shadow: 1px 1px 0 #00a3b0;
+.heading h1 .word1 {
+  display: block;
+  font-size: 128px;
 }
+
+.heading h1 .word2 {
+  font-size: 60px;
+  position: relative;
+  bottom: 26px;
+}
+
+/* Sub heading */
+
+.heading h2 {
+  border-top: 2px solid #fff;
+  font: 600 italic 36px/1.2 "abril-display", serif;
+  margin: 0 40% 0 5%;
+  padding: 0.4em 0;
+  text-align: center;
+  text-shadow: 1px 1px 0 #003143;
+}
+
+/* Text and credits */
 
 .text,
 .credits {
