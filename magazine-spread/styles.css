@@ -1,7 +1,7 @@
 /*
 Colors:
   Orange        #ff4f00
-  Dark orange   #670000
+  Mid orange    #d20000
   Blue          #00a3b0
   Dark blue     #003143
 */
@@ -27,7 +27,7 @@ html {
 .heading h1 {
   font: 400 normal 10em/0.8 "abril-fatface", serif;
   margin: 0.5em 0 0.25em 5%;
-  text-shadow: 1px 1px 0 #003143, 2px 2px 1px #003143;
+  text-shadow: 1px 1px 0 #00a3b0, 2px 2px 1px #00a3b0;
   text-transform: uppercase;
   white-space: nowrap;
 }
@@ -41,7 +41,7 @@ html {
   color: #ff4f00;
   font-size: 0.9em;
   margin-left: 0.6em;
-  text-shadow: 1px 1px 0 #670000, 2px 2px 1px #670000;
+  text-shadow: 1px 1px 1px #dd0800, 2px 2px 1px #dd0800;
   vertical-align: top;
 }
 
@@ -53,7 +53,7 @@ html {
   margin: 0 40% 0 5%;
   padding: 0.4em 0;
   text-align: center;
-  text-shadow: 1px 1px 0 #003143;
+  text-shadow: 1px 1px 0 #00a3b0;
 }
 
 /* Text and credits */
@@ -72,7 +72,7 @@ html {
   -webkit-column-gap: 1em;
   column-gap: 1em;
   margin: 0 40% 1em 5%;
-  text-shadow: 1px 1px 0 #003143;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
 .text p {
