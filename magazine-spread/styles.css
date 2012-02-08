@@ -84,24 +84,22 @@ html {
   color: #666;
   font-size: 14px;
   line-height: 1.2;
-  list-style-type: none;
   margin: 0;
   max-width: 30%;
-  opacity: 0.8;
+  opacity: 0.75;
   padding: 0.8em 1em 1em;
   position: absolute;
   right: 5%;
 }
 
-.credits li {
-  margin: 0 0 0.5em 1em;
-  text-indent: -1em;
-}
-
-.credits em {
+.credits dt {
   color: #f92600;
   font-style: normal;
-  margin-right: 0.5em;
+  float: left;
+}
+
+.credits dd {
+  margin : 0 0 0.5em 3.2em;
 }
 
 .credits a {
