@@ -8,6 +8,12 @@ Colors:
 
 /* Overall Page */
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   background: #00a3b0 url(images/background.jpg) no-repeat top center;
   background-size: cover;
@@ -26,7 +32,8 @@ html {
 
 .heading h1 {
   font: 400 normal 10em/0.8 "abril-fatface", serif;
-  margin: 0.5em 0 0.25em 5%;
+  margin: 0 0 0 5%;
+  padding: 0.5em 0 0.25em;
   text-shadow: 1px 1px 0 #00a3b0, 2px 2px 1px #00a3b0;
   text-transform: uppercase;
   white-space: nowrap;
@@ -71,7 +78,7 @@ html {
   -moz-column-gap: 1em;
   -webkit-column-gap: 1em;
   column-gap: 1em;
-  margin: 0 40% 1em 5%;
+  margin: 0 40% 2em 5%;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -84,7 +91,7 @@ html {
 }
 
 .credits {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.75);
   -moz-border-radius: 3px 3px 0 0;
   -webkit-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
@@ -94,7 +101,6 @@ html {
   line-height: 1.2;
   margin: 0;
   max-width: 30%;
-  opacity: 0.75;
   padding: 0.8em 1em 0.3em;
   position: absolute;
   right: 5%;
@@ -107,9 +113,47 @@ html {
 }
 
 .credits dd {
-  margin : 0 0 0.5em 3.2em;
+  margin: 0 0 0.5em 3.2em;
 }
 
 .credits a {
   color: #666;
+}
+
+
+/* 1024px breakpoint */
+@media screen and (max-width: 1024px) {
+
+  html {
+    background-image: none;
+  }
+
+  .heading {
+    background: url(images/background.jpg) no-repeat top center;
+    background-size: cover;
+    border-bottom: 2px solid #fff;
+  }
+
+  .heading h2 {
+    border-top: 0;
+    margin: 0 5%;
+    padding-bottom: 1em;
+    text-align: left;
+    text-shadow: 1px 1px 0 #003143;
+  }
+
+  .text {
+    margin: 1em 5% 2em;
+  }
+
+  .credits {
+    background: #fff;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding: 1em 5%;
+    position: static;
+    max-width: none;
+  }
+
 }
