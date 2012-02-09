@@ -31,9 +31,9 @@ html {
 /* Main heading */
 
 .heading h1 {
-  font: 400 normal 10em/0.8 "abril-fatface", serif;
+  font: 400 normal 100%/0.8 "abril-fatface", serif;
   margin: 0;
-  padding: 0.5em 0 0.25em 5%;
+  padding: 5em 0 2.5em 5%;
   text-shadow: 1px 1px 0 #00a3b0, 2px 2px 1px #00a3b0;
   text-transform: uppercase;
   white-space: nowrap;
@@ -41,15 +41,19 @@ html {
 
 .heading h1 .word1 {
   display: block;
-  font-size: 1.28em;
+  font-size: 12.8em;
 }
 
 .heading h1 .ampersand {
   color: #ff4f00;
-  font-size: 0.9em;
-  margin-left: 0.6em;
+  font-size: 9em;
+  margin-left: 0.77em;
   text-shadow: 1px 1px 1px #dd0800, 2px 2px 1px #dd0800;
   vertical-align: top;
+}
+
+.heading h1 .word2 {
+  font-size: 10em;
 }
 
 /* Sub heading */
