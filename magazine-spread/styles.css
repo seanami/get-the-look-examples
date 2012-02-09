@@ -32,8 +32,8 @@ html {
 
 .heading h1 {
   font: 400 normal 10em/0.8 "abril-fatface", serif;
-  margin: 0 0 0 5%;
-  padding: 0.5em 0 0.25em;
+  margin: 0;
+  padding: 0.5em 0 0.25em 5%;
   text-shadow: 1px 1px 0 #00a3b0, 2px 2px 1px #00a3b0;
   text-transform: uppercase;
   white-space: nowrap;
@@ -120,7 +120,6 @@ html {
   color: #666;
 }
 
-
 /* 1024px breakpoint */
 @media screen and (max-width: 1024px) {
 
@@ -132,6 +131,7 @@ html {
     background: url(images/background.jpg) no-repeat top center;
     background-size: cover;
     border-bottom: 2px solid #fff;
+    min-height: 500px;
   }
 
   .heading h2 {
@@ -154,6 +154,35 @@ html {
     padding: 1em 5%;
     position: static;
     max-width: none;
+  }
+
+}
+
+/* 640px breakpoint */
+@media screen and (max-width: 640px) {
+
+  .heading {
+    background: #003143;
+    border-bottom: 0;
+    min-height: 0;
+  }
+
+  .heading h1 {
+    background: url(images/background.jpg) no-repeat top center;
+    background-size: cover;
+    border-bottom: 2px solid #fff;
+    min-height: 300px;
+  }
+
+  .heading h2 {
+    font-size: 2.6em;
+    padding: 1em 0;
+  }
+
+  .text {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
   }
 
 }
