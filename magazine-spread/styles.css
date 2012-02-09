@@ -33,7 +33,7 @@ html {
 .heading h1 {
   font: 400 normal 100%/0.8 "abril-fatface", serif;
   margin: 0;
-  padding: 5em 0 2.5em 5%;
+  padding: 5em 40% 2.5em 5%;
   text-shadow: 1px 1px 0 #00a3b0, 2px 2px 1px #00a3b0;
   text-transform: uppercase;
   white-space: nowrap;
@@ -135,7 +135,11 @@ html {
     background: url(images/background.jpg) no-repeat top center;
     background-size: cover;
     border-bottom: 2px solid #fff;
-    min-height: 500px;
+    min-height: 600px;
+  }
+
+  .heading h1 {
+    padding-right: 5%;
   }
 
   .heading h2 {
@@ -176,7 +180,7 @@ html {
     background: url(images/background.jpg) no-repeat top center;
     background-size: cover;
     border-bottom: 2px solid #fff;
-    min-height: 300px;
+    min-height: 330px;
   }
 
   .heading h2 {
