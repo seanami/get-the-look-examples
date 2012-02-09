@@ -144,6 +144,7 @@ html {
 
   .text {
     margin: 1em 5% 2em;
+    text-shadow: none;
   }
 
   .credits {
@@ -177,12 +178,22 @@ html {
   .heading h2 {
     font-size: 2.6em;
     padding: 1em 0;
+    text-shadow: none;
   }
 
   .text {
     -moz-column-count: 1;
     -webkit-column-count: 1;
     column-count: 1;
+  }
+
+}
+
+/* 400px breakpoint */
+@media screen and (max-width: 400px) {
+
+  .heading h2 {
+    font-size: 2em;
   }
 
 }
