@@ -1,0 +1,87 @@
+/*
+Colors:
+  Dark gray     #393431
+  Light gray    #959d9f
+  Rust          #b06955
+  Blue/purple   #4b5da6
+  White         #fff
+*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #959d9f;
+  font-size: 62.5%;
+}
+
+.sign {
+  background: #393431;
+  border: 2em solid #fff;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  margin: 15em auto;
+  height: 40em;
+  position: relative;
+  width: 90em;
+}
+
+.sign:before,
+.sign:after {
+  background: #fff;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  content: " ";
+  display: block;
+  height: 20em;
+  left: 25%;
+  position: absolute;
+  top: -10em;
+  width: 50%;
+}
+
+.sign:after {
+  bottom: -10em;
+  top: auto;
+}
+
+.sign h1 {
+  background: #393431;
+  font-size: 100%;
+  height: 40em;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.sign h1 .name {
+  color: #fff;
+  display: block;
+  font: 400 normal 20em/1 "corner-store", cursive;
+  left: -0.05em;
+  position: absolute;
+  text-align: center;
+  text-shadow: -3px 3px 0 #393431, 0 3px 0 #393431, -3px 0 0 #393431, -4px 4px 0 #b06955, -6px 6px 0 #b06955, -8px 8px 0 #b06955;
+  top: 0.4em;
+  -moz-transform: rotate(-12deg);
+  -ms-transform: rotate(-12deg);
+  -o-transform: rotate(-12deg);
+  -webkit-transform: rotate(-12deg);
+  transform: rotate(-12deg);
+  width: 100%;
+}
+
+.sign h1 .name .first-letter {
+  font-size: 1.2em;
+}
+
+.sign h1 .welcome,
+.sign h2 {
+  color: #4b5da6;
+  font: 400 normal 5em/1 "bello-caps", sans-serif;
+}
