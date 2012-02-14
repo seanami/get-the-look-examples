@@ -8,6 +8,8 @@ Colors:
   White         #fff
 */
 
+/* Overall page */
+
 html,
 body {
   margin: 0;
@@ -27,6 +29,8 @@ a {
 a:hover {
   color: #393431;
 }
+
+/* Sign container and shapes */
 
 .sign {
   background: #393431;
@@ -92,6 +96,8 @@ a:hover {
   top: auto;
 }
 
+/* Main sign heading */
+
 .sign h1 .name {
   color: #fff;
   display: block;
@@ -112,6 +118,8 @@ a:hover {
 .sign h1 .name .first-letter {
   font-size: 1.2em;
 }
+
+/* Additional sign text */
 
 .sign h1 .welcome,
 .sign h2 {
@@ -138,6 +146,8 @@ a:hover {
 .sign h2 .line {
   display: block;
 }
+
+/* Credits */
 
 .credits {
   font: 400 normal 2em/1.2 "bello-caps", sans-serif;
