@@ -1,6 +1,7 @@
 /*
 Colors:
   Dark gray     #393431
+  Middle gray   #5c5958
   Light gray    #959d9f
   Rust          #b06955
   Blue/purple   #3f4e85
@@ -15,7 +16,16 @@ body {
 
 html {
   background: #959d9f;
+  color: #5c5958;
   font-size: 62.5%;
+}
+
+a {
+  color: #5c5958;
+}
+
+a:hover {
+  color: #393431;
 }
 
 .sign {
@@ -25,7 +35,7 @@ html {
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
   box-shadow: 0 3em 5em rgba(0, 0, 0, 0.25);
-  margin: 15em auto;
+  margin: 12em auto;
   height: 40em;
   position: relative;
   width: 90em;
@@ -127,4 +137,26 @@ html {
 
 .sign h2 .line {
   display: block;
+}
+
+.credits {
+  font: 400 normal 2em/1.2 "bello-caps", sans-serif;
+  margin: 2em 0;
+  text-align: center;
+}
+
+.credits dt {
+  color: #3f4e85;
+  display: inline-block;
+  font-family: "corner-store", cursive;
+  margin: 0 0.5em 0 0;
+}
+
+.credits dd {
+  display: inline-block;
+  margin: 0 2em 0 0;
+}
+
+.credits dd:last-of-type {
+  margin: 0;
 }
