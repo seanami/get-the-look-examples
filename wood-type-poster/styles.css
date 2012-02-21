@@ -1,0 +1,202 @@
+/*
+Colors:
+*/
+
+/* Overall page and typography */
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #333;
+  font: 400 normal 187.5%/1.5 "goudy-bookletter-1911", serif;
+  margin: 2em;
+  text-align: center;
+}
+
+strong {
+  display: block;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+h1 {
+  font-size: 100%;
+}
+
+em,
+strong em {
+  font-style: normal;
+}
+
+em {
+  color: #000;
+}
+
+.regular {
+  font-family: "poplar-std", serif;
+  line-height: 0.8;
+  position: relative;
+  top: 0.05em;
+}
+
+.wide {
+  font-family: "hellenic-wide", sans-serif;
+}
+
+.condensed {
+  font-family: "french-clarendon-ornamented", serif;
+  line-height: 0.75;
+  position: relative;
+  top: 0.1em;
+}
+
+.chroma {
+  font-family: "delittle-chromatic";
+}
+
+.chroma:before {
+  font-family: "delittle-chromatic-inlay";
+}
+
+.punc {
+  display: none;
+}
+
+/* Layout */
+
+h1, p {
+  border-bottom: 1px solid #999;
+  margin: 0 0 1em;
+  padding: 0 0 1em;
+}
+
+p:last-of-type {
+  border: 0;
+}
+
+.para2 {
+  overflow: hidden;
+}
+
+.para2 .block1,
+.para2 .block2,
+.para2 .block3 {
+  float: left;
+  width: 31.3%;
+}
+
+.para2 .block1,
+.para2 .block2 {
+  padding: 0 3% 0 0;
+}
+
+.para2 .block1,
+.para2 .block3 {
+  padding-top: 0.6em;
+}
+
+/* Tweaks and full-width sizes (normalized for 1024px width) */
+
+h1 .wide {
+  font-size: 2.4em;
+}
+
+h1 .condensed {
+  font-size: 7.5em;
+}
+
+.para1 .wide {
+  font-size: 3.65em;
+}
+
+.para1 .regular {
+  font-size: 6.7em;
+}
+
+.para1 .regular:last-of-type {
+  font-size: 3.8em;
+}
+
+.para1 .regular:last-of-type small {
+  border-bottom: 0.5em solid #333;
+  font-size: 0.5em;
+  vertical-align: top;
+}
+
+.para2 .block1 .chroma {
+  font-size: 1.95em;
+}
+
+.para2 .block1 .chroma:first-of-type {
+  font-size: 2.5em;
+  line-height: 1.2;
+}
+
+.para2 .block2 .regular {
+  font-size: 1.9em;
+}
+
+.para2 .block2 .chroma {
+  font-size: 2.3em;
+  margin-bottom: -0.3em;
+}
+
+.para2 .block2 .chroma:last-of-type {
+  font-size: 1.85em;
+}
+
+.para2 .block3 .regular {
+  font-size: 2em;
+}
+
+.para2 .block3 .chroma {
+  font-size: 1.85em;
+  margin-top: 0.1em;
+}
+
+.para3 .condensed {
+  font-size: 5.15em;
+}
+
+.para3 .condensed small {
+  font-size: 0.5em;
+  vertical-align: 47%;
+}
+
+.para3 .wide {
+  font-size: 2.13em;
+  margin-top: -0.2em;
+}
+
+.para3 .regular {
+  font-size: 5.2em;
+}
+
+.para3 .regular small:first-of-type {
+  font-size: 0.55em;
+  position: absolute;
+  vertical-align: top;
+}
+
+.para3 .regular small {
+  font-size: 0.35em;
+}
+
+.para3 .chroma {
+  font-size: 3.85em;
+  margin-top: 0.1em;
+}
+
+.para4 .wide {
+  font-size: 2.35em;
+  margin: -0.1em 0;
+}
+
+.para4 .condensed {
+  font-size: 7.2em;
+}
