@@ -106,9 +106,12 @@ p:last-of-type {
   padding: 0 3% 0 0;
 }
 
-.para2 .block1,
-.para2 .block3 {
+.para2 .block1 {
   padding-top: 0.6em;
+}
+
+.para2 .block3 {
+  padding-top: 0.4em;
 }
 
 /* Tweaks and full-width sizes (normalized for 1024px width) */
@@ -143,35 +146,35 @@ h1 .condensed {
   vertical-align: top;
 }
 
-.para2 .block1 .chroma {
-  font-size: 1.95em;
+.para2 .block1 .regular:first-of-type {
+  font-size: 3.1em;
 }
 
-.para2 .block1 .chroma:first-of-type {
-  font-size: 2.5em;
-  line-height: 1.2;
+.para2 .block1 .regular {
+  font-size: 2.38em;
+}
+
+.para2 .block2 .regular:first-of-type {
+  font-size: 1.9em;
+  margin: 0;
 }
 
 .para2 .block2 .regular {
-  font-size: 1.9em;
+  font-size: 2.7em;
+  margin: 0 0 -0.15em;
 }
 
-.para2 .block2 .chroma {
-  font-size: 2.3em;
-  margin-bottom: -0.3em;
-}
-
-.para2 .block2 .chroma:last-of-type {
-  font-size: 1.85em;
+.para2 .block2 .regular:last-of-type {
+  font-size: 2.17em;
+  margin: -0.1em 0 0;
 }
 
 .para2 .block3 .regular {
   font-size: 2em;
 }
 
-.para2 .block3 .chroma {
-  font-size: 1.85em;
-  margin-top: 0.1em;
+.para2 .block3 .regular:last-of-type {
+  font-size: 2.2em;
 }
 
 .para3 .condensed {
