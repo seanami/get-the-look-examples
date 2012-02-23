@@ -122,6 +122,7 @@ h1 .wide {
 
 h1 .condensed {
   font-size: 7.5em;
+  text-shadow: 0.02em 0.04em 0 rgba(0, 0, 0, 0.2);
 }
 
 .para1 .wide {
@@ -219,5 +220,7 @@ h1 .condensed {
 }
 
 .para4 .condensed {
+  color: #666;
   font-size: 7.2em;
+  text-shadow: 0.02em 0.02em 0 #333;
 }
