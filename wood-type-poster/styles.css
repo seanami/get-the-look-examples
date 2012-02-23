@@ -211,7 +211,7 @@ h1 .condensed {
 
 .para3 .chroma {
   font-size: 3.85em;
-  margin-top: 0.1em;
+  margin: 0.1em 0 -0.05em;
 }
 
 .para4 .wide {
