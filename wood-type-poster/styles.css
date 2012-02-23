@@ -57,10 +57,17 @@ em {
 
 .chroma {
   font-family: "delittle-chromatic";
+  position: relative;
 }
 
 .chroma:before {
+  color: #999;
+  content: attr(data-content);
+  display: block;
   font-family: "delittle-chromatic-inlay";
+  position: absolute;
+  top: 0.07em;
+  width: 100%;
 }
 
 .punc {

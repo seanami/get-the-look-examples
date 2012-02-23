@@ -8,8 +8,19 @@
     <script type="text/javascript" src="http://use.typekit.com/rck3htg.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
+    <!-- jQuery and FitText libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
     <!-- CSS styles -->
     <link rel="stylesheet" href="styles.css" type="text/css">
+
+    <!-- Create content for Chroma overlays -->
+    <script>
+      $(function() {
+        $('.chroma').each(function() {
+          $(this).attr('data-content', $(this).text());
+        });
+      });
     </script>
 
   </head>
