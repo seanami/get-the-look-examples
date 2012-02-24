@@ -77,6 +77,36 @@ h1 {
   display: none;
 }
 
+.misprint {
+  position: relative;
+  text-shadow: none;
+}
+
+.misprint:before {
+  color: rgba(0, 0, 0, 0.2);
+  content: attr(data-content);
+  display: block;
+  left: 0;
+  position: absolute;
+  text-shadow: none;
+  top: -0.2em;
+  -moz-transform: rotate(-8deg);
+  -ms-transform: rotate(-8deg);
+  -o-transform: rotate(-8deg);
+  -webkit-transform: rotate(-8deg);
+  transform: rotate(-8deg);
+}
+
+strong .misprint:before {
+  color: rgba(217, 20, 43, 0.2);
+  top: 0.2em;
+  -moz-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -webkit-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
 /* Layout */
 
 h1, p {
@@ -156,6 +186,10 @@ h1 .condensed {
   vertical-align: top;
 }
 
+.para1 .regular .misprint:before {
+  top: 0.3em;
+}
+
 .para2 .block1 .regular:first-of-type {
   font-size: 3.1em;
 }
@@ -196,6 +230,10 @@ h1 .condensed {
 .para3 .condensed small {
   font-size: 0.5em;
   vertical-align: 47%;
+}
+
+.para3 .condensed .misprint:before {
+  color: rgba(45, 57, 128, 0.2);
 }
 
 .para3 .wide {

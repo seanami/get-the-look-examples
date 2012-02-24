@@ -18,7 +18,7 @@
     <!-- Create content for Chroma overlays and set up FitText -->
     <script>
       $(function() {
-        $('.chroma').each(function() {
+        $('.chroma, .misprint').each(function() {
           $(this).attr('data-content', $(this).text());
         });
         $('.poster').fitText(3.05);
@@ -32,14 +32,14 @@
 
       <h1>
         <strong class="wide">Concerning</strong>
-        <strong class="condensed">Irregular Figures</strong>
+        <strong class="condensed"><span class="misprint">Irregular</span> Figures</strong>
       </h1>
 
       <p class="para1">
         <strong class="wide">Nature</strong> wills all Figures to have their
         <strong class="chroma">sides equal</strong><span class="punc">.</span>
-        If our sides were unequal our
-        <strong class="regular">angles <small>might be</small> unequal</strong><span class="punc">.</span>
+        If our sides were <span class="misprint">unequal</span> our
+        <strong class="regular">angles <small>might be</small> <span class="misprint">unequal</span></strong><span class="punc">.</span>
       </p>
 
       <p class="para2">
@@ -62,10 +62,10 @@
       </p>
 
       <p class="para3">
-        <strong class="condensed">Toleration <small>of</small> Irregularity</strong> is
+        <strong class="condensed">Toleration <small>of</small> <span class="misprint">Irregularity</span></strong> is
         <strong class="wide">incompatible</strong> with the
         <strong class="regular">safety <small>of</small> <small>the</small> State</strong><span class="punc">.</span>
-        Doubtless, the life of an Irregular is hard; but the interests of the
+        Doubtless, the life of an <span class="misprint">Irregular</span> is hard; but the interests of the
         <strong class="chroma">Greater Number</strong>
         require that it shall be hard.
       </p>
