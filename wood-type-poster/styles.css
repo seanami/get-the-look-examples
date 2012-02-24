@@ -10,6 +10,8 @@ html {
 }
 
 body {
+  background: url(images/paper.jpg) repeat top center;
+  background-size: contain;
   color: #333;
   font: 400 normal 187.5%/1.5 "goudy-bookletter-1911", serif;
   text-align: center;
