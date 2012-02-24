@@ -290,3 +290,35 @@ h1 .condensed {
   font-size: 7.2em;
   text-shadow: 0.02em 0.02em 0 rgba(217, 20, 43, 0.75);
 }
+
+/* Credits */
+
+.credits {
+  background: #3b342e;
+  background: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.6em;
+  line-height: 1.2;
+  margin: 0;
+  padding: 1.5em 1em 0.5em;
+}
+
+.credits dt {
+  color: #dd434d;
+  color: rgba(217, 20, 43, 0.75);
+  margin: 0;
+}
+
+.credits dd {
+  margin: 0 0 1em;
+}
+
+.credits a {
+  color: #d1b03a;
+  color: rgba(199, 162, 12, 0.75);
+}
+
+.credits a:hover {
+  color: rgba(199, 162, 12, 1);
+}
