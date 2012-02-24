@@ -1,5 +1,10 @@
 /*
 Colors:
+  Red/pink    rgba(217, 20, 43, 0.75)     #dd434d
+  Blue        rgba(45, 57, 128, 0.75)     #5d608f
+  Yellow      rgba(199, 162, 12, 0.75)    #d1b03a
+  Black       rgba(0, 0, 0, 0.75)         #3b342e
+  Paper                                   #e9cdb2
 */
 
 /* Overall page and typography */
@@ -12,7 +17,8 @@ html {
 body {
   background: url(images/paper.jpg) repeat top center;
   background-size: contain;
-  color: #333;
+  color: #3b342e;
+  color: rgba(0, 0, 0, 0.75);
   font: 400 normal 187.5%/1.5 "goudy-bookletter-1911", serif;
   text-align: center;
 }
@@ -114,28 +120,38 @@ h1 .wide {
 }
 
 h1 .condensed {
+  color: #dd434d;
+  color: rgba(217, 20, 43, 0.75);
   font-size: 7.5em;
-  text-shadow: 0.02em 0.04em 0 rgba(0, 0, 0, 0.2);
+  text-shadow: 0.02em 0.04em 0 rgba(217, 20, 43, 0.2);
 }
 
 .para1 .wide {
+  color: #5d608f;
+  color: rgba(45, 57, 128, 0.75);
   font-size: 3.65em;
-  text-shadow: 0.01em 0.01em 0 #999, 0.02em 0.02em 0.01em #999, 0.03em 0.03em 0.01em #999, 0.04em 0.04em 0 #999;
+  text-shadow: 0.04em 0.04em 0 rgba(45, 57, 128, 0.2);
 }
 
 .para1 .chroma {
   font-size: 5.4em;
   margin-bottom: -0.1em;
-  text-shadow: 0.06em 0.03em 0 rgba(0, 0, 0, 0.2);
+  text-shadow: 0.06em 0.03em 0 rgba(199, 162, 12, 0.4);
+}
+
+.para1 .chroma:before {
+  color: #d1b03a;
 }
 
 .para1 .regular {
+  color: #dd434d;
+  color: rgba(217, 20, 43, 0.75);
   font-size: 3.8em;
   text-shadow: none;
 }
 
 .para1 .regular small {
-  border-bottom: 0.5em solid #333;
+  border-bottom: 0.5em solid rgba(217, 20, 43, 0.2);
   font-size: 0.5em;
   vertical-align: top;
 }
@@ -172,6 +188,8 @@ h1 .condensed {
 }
 
 .para3 .condensed {
+  color: #5d608f;
+  color: rgba(45, 57, 128, 0.75);
   font-size: 5.15em;
 }
 
@@ -181,14 +199,19 @@ h1 .condensed {
 }
 
 .para3 .wide {
+  color: #d1b03a;
+  color: rgba(199, 162, 12, 0.75);
   font-size: 2.13em;
   margin-top: -0.2em;
 }
 
 .para3 .regular {
-  font-size: 5.2em;
+  color: #dd434d;
+  color: rgba(217, 20, 43, 0.75);
+  font-size: 4.75em;
+  letter-spacing: 0.05em;
   margin: 0 0 0.05em;
-  text-shadow: 0.02em 0.02em 0 #fff, 0.05em 0.05em 0 #999;
+  text-shadow: 0.02em 0.02em 0 #e9cdb2, 0.05em 0.05em 0 rgba(217, 20, 43, 0.5);
 }
 
 .para3 .regular small:first-of-type {
@@ -199,21 +222,32 @@ h1 .condensed {
 
 .para3 .regular small {
   font-size: 0.35em;
+  letter-spacing: 0;
   text-shadow: none;
 }
 
 .para3 .chroma {
+  color: #5d608f;
+  color: rgba(45, 57, 128, 0.75);
   font-size: 3.85em;
   margin: 0.1em 0 -0.05em;
+  text-shadow: 0.04em 0.03em 0 rgba(199, 162, 12, 0.5);
+}
+
+.para3 .chroma:before {
+  color: #dd434d;
+  color: rgba(217, 20, 43, 0.75);
 }
 
 .para4 .wide {
   font-size: 2.35em;
   margin: -0.1em 0;
+  text-shadow: 0.03em 0.06em 0 rgba(199, 162, 12, 0.75);
 }
 
 .para4 .condensed {
-  color: #666;
+  color: #5d608f;
+  color: rgba(45, 57, 128, 0.75);
   font-size: 7.2em;
-  text-shadow: 0.02em 0.02em 0 #333;
+  text-shadow: 0.02em 0.02em 0 rgba(217, 20, 43, 0.75);
 }
