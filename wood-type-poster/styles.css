@@ -33,15 +33,6 @@ h1 {
   font-size: 100%;
 }
 
-em,
-strong em {
-  font-style: normal;
-}
-
-em {
-  color: #000;
-}
-
 .regular {
   font-family: "poplar-std", serif;
   line-height: 0.8;
