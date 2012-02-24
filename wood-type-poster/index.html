@@ -22,6 +22,9 @@
           $(this).attr('data-content', $(this).text());
         });
         $('.poster').fitText(3);
+        
+        // Why do I need to trigger resize to get the sizing right on reload?
+        $(window).resize();
       });
     </script>
 
