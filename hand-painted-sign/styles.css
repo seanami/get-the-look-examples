@@ -35,67 +35,32 @@ a:hover {
 /* Sign container and shapes */
 
 .sign {
+  background: #000 url(images/wood.png) 4.5em 0;
+  border: 1px solid #000;
+  border-color: #393431 #222 #000;
+  -moz-border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  border-radius: 0.5em;
+  box-shadow: 0 3em 5em rgba(0, 0, 0, 0.4);
+  margin: 10em auto;
+  height: 44em;
+  position: relative;
+  width: 94em;
+}
+
+.sign h1 {
   background: #393431;
   border: 2em solid #3f4e85;
   -moz-border-radius: 0.5em;
   -webkit-border-radius: 0.5em;
   border-radius: 0.5em;
-  box-shadow: 0 3em 5em rgba(0, 0, 0, 0.4);
-  margin: 15em auto;
-  height: 40em;
-  position: relative;
-  width: 90em;
-}
-
-.sign:before,
-.sign:after {
-  background: #3f4e85;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  content: " ";
-  display: block;
-  height: 20em;
-  left: 25%;
-  position: absolute;
-  top: -10em;
-  width: 50%;
-}
-
-.sign:after {
-  bottom: -10em;
-  top: auto;
-}
-
-.sign h1 {
-  background: #393431;
   font-size: 100%;
   height: 40em;
   margin: 0;
+  -webkit-mask: url(images/wood.png) 4.5em 0;
+  mask: url(images/wood.png) 4.5em 0;
   position: relative;
   z-index: 2;
-}
-
-.sign h1:before,
-.sign h1:after {
-  background: #393431;
-  content: " ";
-  display: block;
-  height: 10em;
-  left: 40em;
-  position: absolute;
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  top: -5em;
-  width: 10em;
-}
-
-.sign h1:after {
-  bottom: -5em;
-  top: auto;
 }
 
 /* Main sign heading */
@@ -136,10 +101,12 @@ a:hover {
 }
 
 .sign h2 {
-  bottom: 0.7em;
+  bottom: 1em;
   font-size: 5em;
   line-height: 0.7;
   margin: 0;
+  -webkit-mask: url(images/wood.png) -9.32em -6em;
+  mask: url(images/wood.png) -9.32em -6em;
   right: 1.2em;
   text-align: right;
   z-index: 3;
