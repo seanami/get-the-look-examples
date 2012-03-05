@@ -81,7 +81,7 @@ a:hover {
   width: 100%;
 }
 
-.sign h1 .name .first-letter {
+.sign h1 .name:first-letter {
   font-size: 1.2em;
 }
 
