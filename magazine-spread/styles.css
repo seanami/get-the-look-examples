@@ -15,7 +15,7 @@ body {
 }
 
 html {
-  background: #00a3b0 url(images/background.jpg) no-repeat top center;
+  background: #003143 url(images/background.jpg) no-repeat top center;
   background-size: cover;
   font-size: 62.5%;
   min-height: 100%;
@@ -171,7 +171,7 @@ html {
 @media screen and (max-width: 640px) {
 
   .heading {
-    background: #003143;
+    background: #00a3b0;
     border-bottom: 0;
     min-height: 0;
   }
