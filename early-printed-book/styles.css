@@ -36,7 +36,7 @@ h1 {
   -webkit-box-shadow: 0 0.5em 2em rgba(0, 0, 0, 0.35);
   box-shadow: 0 0.5em 2em rgba(0, 0, 0, 0.35);
   margin: 2em auto 4em;
-  padding: 6em;
+  padding: 6em 6em 5em;
   width: 38em;
 }
 
@@ -83,4 +83,42 @@ h1 {
 
 .page p:first-line {
   color: #e53635;
+}
+
+/* Credits */
+
+.credits {
+  color: #816e5d;
+  margin: 1em 0 0;
+  -webkit-transform: rotate(2deg);
+}
+
+.credits a {
+  color: #816e5d;
+  text-decoration: none;
+}
+
+.credits a:hover {
+  text-decoration: underline;
+}
+
+.credits dt {
+  display: inline;
+}
+
+.credits dt:after {
+  content: " — ";
+}
+
+.credits dd {
+  display: inline;
+  margin: 0;
+}
+
+.credits dd:after {
+  content: " — ";
+}
+
+.credits dd:last-of-type:after {
+  content: "";
 }
