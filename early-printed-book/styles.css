@@ -74,8 +74,9 @@ h1 {
   background-size: contain;
   color: #e53635;
   float: left;
-  font: normal 400 6em/1 "givry", cursive;
-  padding-right: 0.1em;
+  font: normal 400 6em/0.8 "givry", cursive;
+  margin: 0 0 -0.1em 0;
+  padding: 0 0.1em 0.1em 0;
   text-align: center;
   text-shadow: 1px 1px 0 #353939;
   width: 0.75em;
@@ -90,7 +91,11 @@ h1 {
 .credits {
   color: #816e5d;
   margin: 1em 0 0;
+  -moz-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
   -webkit-transform: rotate(2deg);
+  transform: rotate(2deg);
 }
 
 .credits a {
