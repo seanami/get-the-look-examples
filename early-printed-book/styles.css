@@ -4,7 +4,7 @@
  * Black - #000507
  */
 
-/* Overall window */
+/* Overall document and type */
 
 html,
 body {
@@ -14,16 +14,25 @@ body {
 
 html {
   background: #eee;
-  color: rgba(0, 5, 7, 0.9);
-  font-size: 100%;
+  color: #000507;
+  font: normal 400 125%/1.1 "herb", cursive;
 }
 
-/* Book page */
+h1 {
+  font-family: "givry", cursive;
+  font-weight: 400;
+}
+
+.credits {
+  font-family: "felt-tip-roman", cursive;
+}
+
+/* Book page and layout */
 
 .page {
   background: url(images/paper.gif);
   box-shadow: 0 0.5em 2em rgba(0, 0, 0, 0.35);
   margin: 2em auto 4em;
-  padding: 8em;
-  width: 44em;
+  padding: 6em;
+  width: 38em;
 }
