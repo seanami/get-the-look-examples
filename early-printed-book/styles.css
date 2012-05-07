@@ -31,6 +31,8 @@ h1 {
 
 .page {
   background: url(images/paper.gif);
+  -moz-box-shadow: 0 0.5em 2em rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 0.5em 2em rgba(0, 0, 0, 0.35);
   box-shadow: 0 0.5em 2em rgba(0, 0, 0, 0.35);
   margin: 2em auto 4em;
   padding: 6em;
