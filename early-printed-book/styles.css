@@ -1,8 +1,8 @@
 /**
  * Colors:
- * Red   - #df0000
+ * Red   - #e53635
  * Gold  - #816e5d
- * Black - #000507
+ * Black - #353939
  */
 
 /* Overall document and type */
@@ -15,7 +15,7 @@ body {
 
 html {
   background: #eee;
-  color: #000507;
+  color: #353939;
   font: normal 400 125%/1.1 "herb", cursive;
 }
 
@@ -65,22 +65,22 @@ h1 {
 /* Rubrication of headlines and first letters */
 
 .page h1 {
-  color: #df0000;
-  text-shadow: 1px 1px 0 #000507, 0 1px 0 #000507, 1px 0 0 #000507;
+  color: #e53635;
+  text-shadow: 1px 1px 0 #353939;
 }
 
 .page p:first-letter {
   background: url(images/rubrication.png) no-repeat center center;
   background-size: contain;
-  color: #df0000;
+  color: #e53635;
   float: left;
   font: normal 400 6em/1 "givry", cursive;
   padding-right: 0.1em;
   text-align: center;
-  text-shadow: 1px 1px 0 #000507, 0 1px 0 #000507, 1px 0 0 #000507;
+  text-shadow: 1px 1px 0 #353939;
   width: 0.75em;
 }
 
 .page p:first-line {
-  color: #df0000;
+  color: #e53635;
 }
