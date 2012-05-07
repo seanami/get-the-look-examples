@@ -44,3 +44,12 @@ h1 {
   -webkit-column-count: 2;
   column-count: 2;
 }
+
+.page h1 {
+  font-size: 2.5em;
+  margin: 0 0 0.5em;
+}
+
+.page p {
+  margin: 0;
+}
