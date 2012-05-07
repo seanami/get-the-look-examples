@@ -51,5 +51,9 @@ h1 {
 }
 
 .page p {
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
   margin: 0;
+  text-align: justify;
 }
