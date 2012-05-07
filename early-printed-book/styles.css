@@ -1,6 +1,7 @@
 /**
  * Colors:
  * Red   - #df0000
+ * Gold  - #816e5d
  * Black - #000507
  */
 
@@ -56,4 +57,25 @@ h1 {
   hyphens: auto;
   margin: 0;
   text-align: justify;
+}
+
+/* Rubrication of headlines and first letters */
+
+.page h1 {
+  color: #df0000;
+}
+
+.page p:first-letter {
+  background: url(images/rubrication.png) no-repeat center center;
+  background-size: contain;
+  color: #df0000;
+  float: left;
+  font: normal 400 6em/1 "givry", cursive;
+  padding-right: 0.1em;
+  text-align: center;
+  width: 0.75em;
+}
+
+.page p:first-line {
+  color: #df0000;
 }
